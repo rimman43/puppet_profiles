@@ -6,7 +6,7 @@
 class puppet_profiles::apache {
   include ::puppet_apache
 
-  class {'::php':
-    pear => true,
- }
+#  class {'::php':
+#    pear => true,
+# }
 }
