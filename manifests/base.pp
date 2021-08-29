@@ -2,8 +2,8 @@
 #  This is our base profile for our nodes
 #
 # @example
-#   include profile::base
-class profile::base {
+#   include puppet_profiles::base
+class puppet_profiles::base {
   include ::ntp
 
   class {'::motd':

@@ -3,7 +3,7 @@
 #
 # @example
 #   include profile::mysql::server
-class profile::mysql::server {
+class puppet_profiles::mysql::server {
 #  include ::mysql::server
 
   class { '::mysql::server':
