@@ -6,7 +6,7 @@
 class puppet_profiles::base {
 #  include ::ntp
 
-#  class {'::motd':
-#    content => "This host is managed by puppet!\n", 
-#  } 
+  class {'::motd':
+    content => "This host is managed by puppet!\n", 
+  } 
 }
